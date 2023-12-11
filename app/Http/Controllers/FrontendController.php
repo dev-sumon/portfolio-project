@@ -13,4 +13,7 @@ class FrontendController extends Controller
     public function admin(){
         return view('backend.admin');
     }
+    public function main(){
+        return view('backend.main');
+    }
 }

@@ -23,8 +23,9 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/',[FrontendController::class, 'index'])->name('index');
 Route::get('/admin/dashboard',[FrontendController::class, 'admin'])->name('admin');
+Route::get('/admin/dashboard/main',[FrontendController::class, 'main'])->name('main');
 
-Auth::routes();
+// Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
